@@ -22,4 +22,4 @@ ENV OTEL_PYTHON_LOGGING_AUTO_INSTRUMENTATION_ENABLED=true
 EXPOSE 5000
 
 # Define the command to run the application
-CMD [ "opentelemetry-instrument","--service_name python-server","python", "compute.py"]
+CMD [ "opentelemetry-instrument","--service_name","python-server","python", "compute.py"]
